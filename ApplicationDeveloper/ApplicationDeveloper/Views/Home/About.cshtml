@@ -1,0 +1,81 @@
+﻿@using System.Web.UI.WebControls
+@model ApplicationDeveloper.Models.pokemon
+@{
+    ViewBag.Title = "buy";
+
+}
+
+<img src="@Url.Content("~/Content/pickachu.jpg")" alt="Mountain View" style="width: 304px; height: 228px;">
+<img src="@Url.Content("~/Content/squirtle.jpg")" alt="Mountain View" style="width: 304px; height: 228px;">
+<img src="@Url.Content("~/Content/charmander.jpg")" alt="Mountain View" style="width: 304px; height: 228px;">
+<div>
+    <h1>  Enter 0 if you dont want to buy a pokemon</h1>
+</div>
+
+@using (Html.BeginForm("About", "Home"))
+{
+    <body>
+
+
+
+
+    <div class="col-md-4">
+
+        <h2 >Pickachu </h2>
+        <input type="text"
+               name="Pickachu"
+               type="text"
+               value=""/>
+
+
+
+
+    </div>
+    <div class="col-md-4">
+        <h2>Squirtle</h2>
+        <input type="text"
+               name="squitle"
+               type="text"
+               value=""/>
+
+
+
+    </div>
+    <div class="col-md-4">
+
+        <h2>Charmander</h2>
+        <input type="text"
+               name="bull"
+               type="text"
+               value=""/>
+
+
+
+
+    </div>
+
+
+    <div class="ronic">
+
+        <input type="submit" name="test" id="testButton" value="Submit"/>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div>
+        <label>Total Price:</label>
+    </div>
+    <div class="varunn">
+        @Html.DisplayFor(model => model.answer)
+
+    </div>
+    </body>
+  
+}

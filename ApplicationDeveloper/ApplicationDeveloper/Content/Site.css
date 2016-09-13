@@ -1,0 +1,79 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    
+
+    
+       position:absolute; 
+   margin-left:-150px;
+   left:50%;
+   width:100px;
+   bottom:390px;
+   
+
+}
+h1, .h1 {
+    font-size: 36px;
+    color: red;
+    bottom: 390px;
+
+}
+    
+     
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+    bottom: -100px;
+}
+label {
+          position:absolute; 
+   margin-left:-10px;
+
+   left:50%;
+   width:100px;
+   bottom:390px;
+
+}
+
+.varunn {
+    color: red;
+    position: absolute;
+    margin-left: -10px;
+    left: 975px;
+    width: 900px;
+    bottom: 390px;
+
+
+
+
+}
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    
+}
+
+
